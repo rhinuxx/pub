@@ -1,23 +1,13 @@
-# pub
+``` flow
+st=>start: 开始
+e=>end: 结束
+op1=>operation: clone一个文档分类库
+op2=>operation: 选择或建立本组目录
+op3=>operation: 创建或修改文件
+op4=>operation: 提交文件
+op5=>operation: 打开[索引库-WIKI](http://192.168.188.193/Document/meta-index/wikis/home)
+op6=>operation: 编辑自己组的索引
 
-```
-graph LR
-A-->B
-```
+st->op1->op2->op3->op4->op5->op6->e->
 
-```
-sequenceDiagram
-A->>B: How are you?
-B->>A: Great!
-```
-
-```
-gantt
-dateFormat YYYY-MM-DD
-section S1
-T1: 2014-01-01, 9d
-section S2
-T2: 2014-01-11, 9d
-section S3
-T3: 2014-01-02, 9d
 ```
